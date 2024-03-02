@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>    
+    <header>        
+        <div class="container">
+            <img src="./astronaut-grid 2 - Copia.png"/>            
+            <h1>EBAC FOTOS</h1>            
+                <nav>                    
+            <ul>
+                <li>
+                    <a href="#SOBRE-NÓS">SOBRE NÓS</a>
+                </li>
+                <li>
+                    <a href="#NOSSAS-IMAGENS">NOSSAS IMAGENS</a>  
+                </li> 
+                <li>
+                    <a href="#ALBUNS">ALBUNS EXCLUSIVOS</a>  
+                </li> 
+                <li>
+                    <a href="#NOS-ACOMPANHE-NAS-REDES-SOCIAIS">NOS ACOMPANHE NAS REDES SOCIAIS</a>  
+                </li>                                                    
+            </ul>
+        </nav>
+            <form class="container-pesquisar">
+                <input type="text" id="text" required placeholder="pesquisar imagem"/>
+            <button type="submit" onclick="">Pesquisar imagem </button>
+            </form>        
+        </div>
+    </header>
+        <!--grid-->
+        <section id="SOBRE-NÓS">
+            <div class="container-download">
+                <h2>SOBRE NÓS</h2>        
+                <h5>Temos paixão pelo universo, e aqui reunimos dezenas de fotos para você apreciar, colecionar ou fazer download para seus projetos.</h5>    
+            </div>
+        </section>
+                <section id="NOSSAS-IMAGENS">
+                    <div class="container-descricao">
+                        <h4>
+                            NOSSAS IMAGENS:
+                        </h4>
+                    </div>
+                </section>   
+    <div class="row-body">
+        <div class="col-md-30">
+            <div class="container g-0">
+                <div class="row">
+                    <div class="col-md-3 post">
+                        <img src="./wolf-647528_640.jpg"/>
+                        <h4 class="h5">Vida Selvagem</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>
+                    <div class="col-md-3 post">
+                        <img src="./couple-1375125_640.jpg"/>
+                        <h4 class="h5">O amor está no ar...</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>
+                    <div class="col-md-3 post">
+                        <img src="./heaven-corrido.png" />
+                        <h4 class="h5">Ah...a lua</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>
+                    <div class="col-md-3 post">
+                        <img src="./milky-way-4526277_640.jpg" />
+                        <h4 class="h5">Via Lactea</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>
+                    <div class="col-md-3 post">
+                        <img src="./himalayas-.jpg" />
+                        <h4 class="h5">Diretamente do Himalaia</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>
+                    <div class="col-md-3 post">
+                        <img src="./aurora-1190254_640.jpg" />
+                        <h4 class="h5">Aurora boreal</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>
+                    <div class="col-md-3 post">
+                        <img src="./spaceship-4828098_640.jpg"/>
+                        <h4 class="h5">Seja abduzido</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>
+                    <div class="col-md-3 post">
+                        <img src="./trees-4725165_640.jpg" />
+                        <h4 class="h5">Floresta</h4>                        
+                        <a class="btn btn-primary btn-sm">Download</a>
+                    </div>                
+                <div class="col-md-3 post">
+                    <img src="./shooting-star-2024127_640.jpg"/>
+                    <h4 class="h5">Estrela cadente</h4>                    
+                    <a class="btn btn-primary btn-sm">Download</a>
+                </div>
+                <div class="col-md-3 post">
+                    <img src="./constellations-1851128_640.jpg"/>
+                    <h4 class="h5">Escuridão</h4>                    
+                    <a class="btn btn-primary btn-sm">Download</a>
+                </div>
+                <div class="col-md-3 post">
+                    <img src="./dark-1850638_640.jpg"/>
+                    <h4 class="h5">Montanhas</h4>
+                    <a class="btn btn-primary btn-sm">Download</a>
+                </div>
+                <div class="col-md-3 post">
+                    <img src="./milky-way45.jpg"/>
+                    <h4 class="h5">Faça parte da paisagem</h4>
+                    <a class="btn btn-primary btn-sm">Download</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!---carrocel-->
+    <div class="carousel">        
+        <div id="carousel-exemplo"   class= "carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000"  class="carousel-item active">
+                    <img class="d-block w-50 " src="./ngc-2082-11052_640.jpg" />                </div>                
+                <div data-bs-interval="2000"class="carousel-item">
+                    <img class="d-block w-50" src="./space-4714327_1280.jpg">                    
+                </div>
+                <div data-bs-interval="2000"class="carousel-item">
+                    <img class="d-block w-50" src="./space-4748908_1280.jpg">                    
+                </div>
+                <div data-bs-interval="2000"class="carousel-item">
+                    <img class="d-block w-50" src="./astronomy-1867616_1280.jpg">                    
+                </div> 
+                <div data-bs-interval="2000"class="carousel-item">
+                    <img class="d-block w-50" src="./123.jpg">                    
+                </div>   
+                <div data-bs-interval="2000"class="carousel-item">
+                    <img class="d-block w-50" src="./sat.webp">                    
+                </div>  
+                <div data-bs-interval="2000"class="carousel-item">
+                    <img class="d-block w-50" src="./galx.jpg">                    
+                </div>                   
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="6"></button>  
+            </div>
+            </div>
+            <div class="carousel-imagens">
+                <h6>As imagens mais vistas na semana</h6>
+                <a class="btn btn-primary btn-md btn-warning">Veja mais >>></a>                  
+            </div>   
+        </div>     
+    <!--card----->
+    <section id="ALBUNS">
+        <div class="titulo">
+            <h4>ALBUNS EXCLUSIVOS:</h4>                
+        </div>
+    </section>    
+    <div class="container-card1">
+        <div class="row">           
+                <div class="col-sm-4" style="padding: 16px;">
+                    <article class="card text-bg-dark">
+                        <header class="card-header">
+                            Nebulosa
+                        </header >                
+                        <img src="./astronomy-1867616_1280.jpg"/>
+                        <div class="card-body">                            
+                            <p class="card-text">
+                                nuvens cósmicas formadas por poeira espacial, plasma e hidrogênio. Elas podem ser de emissão, reflexão, escuras ou planetárias...
+                            </p>                            
+                        </div>  
+                        <footer class="card-footer">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </footer> 
+                </article>
+                </div>             
+                <div class="col-sm-4" style="padding: 16px;">
+                    <article class="card text-bg-dark">
+                        <header class="card-header">
+                            Galaxia
+                        </header >                
+                        <img src="./galx.jpg"/>
+                        <div class="card-body">                            
+                            <p class="card-text">
+                                conjuntos de estrelas, poeira, gases e matéria escura que formam o Universo...
+                            </p>                            
+                        </div>  
+                        <footer class="card-footer">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </footer> 
+                </article>
+                </div>            
+            <div class="col-sm-4" style="padding: 16px;">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Novo planeta
+                    </header >                
+                    <img src="./space-4714327_1280.jpg"/>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Chamado de HD 63433d, ele é o terceiro planeta encontrado em órbita ao redor de uma estrela chamada HD 63433...
+                        </p>
+                        
+                    </div>  
+                    <footer class="card-footer">
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </footer> 
+            </article>
+            </div>
+        </div>
+        <div class="carousel-imagens">
+            <h6></h6>
+            <a class="btn btn-primary btn-lg btn-primary">Veja mais albuns >>></a>                  
+        </div>   
+        </div>
+        
+        <section id="NOS-ACOMPANHE-NAS-REDES-SOCIAIS">
+            <div class="container-midia">
+                <div>
+                    <h6>Nos acompanhe nas redes:</h6>
+                    <ul class="social-links">
+                        <li>
+                            <a ref="#" title="Siga-nos no Instagram">
+                                <img src="instagram.png" alt="Logo do Instagram"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a ref="#" title="Siga-nos no Facebook">
+                                <img src="./facebook.png" alt="Logo do Facebook"> 
+                            </a>                            
+                        </li>
+                        <li>
+                            <a ref="#" title="Siga-nos no Youtube">
+                                <img src="./youtube.png" alt="Logo do youtube"/>
+                            </a> 
+                            </li>
+                    </ul>
+                </div>                
+            </div>
+        </section>
+            
+            <footer>
+                <div class="container-footer">
+                    <p>
+                        &copy; EBAC FOTOS - Todos os direitos reservados - 2024
+                    </p>
+                </div>            
+        </footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

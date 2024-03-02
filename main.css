@@ -1,0 +1,153 @@
+.carousel img {
+    max-height: 220px; /* Defina a altura desejada */
+    width: 27%; /*  largura*/
+    margin: 0 auto;
+}
+
+.carousel-imagens {
+    text-align: center;
+}
+.container h1 {
+    height: 20px;
+    color: rgb(167, 186, 240);    
+    text-align:left;
+    padding: 50px;
+    height: 160px;
+    width: 100%;
+}
+
+.container-download {
+    padding:18px;
+    }
+
+    .container-download h2, h4{
+        color:rgb(8, 8, 73)
+    
+    }
+
+    .container-download h5{
+        color:rgb(6, 63, 85);
+        padding:30px;
+        
+    }
+
+.titulo {
+    text-align:left;
+}
+.container-card1 {
+    padding: 100px;
+}
+
+.titulo {
+    padding:20px;
+    background-color: rgb(33, 120, 219);
+    color:rgb(140, 167, 241);
+    padding:18px;
+    }
+
+.row-body {
+    padding:60px;
+    }
+
+    .row-body h4 {
+        color:rgb(7, 20, 61)
+    }
+    
+
+    body {
+    background-color: rgb(137, 155, 226);
+}
+
+.container-space {
+    padding:18px;
+    width: 90%;
+}
+
+
+    .card {
+        width: 300px; 
+        height: 600px;
+}
+
+
+header img {
+    width: 150px;
+    padding:10px;    
+    float: right;
+}
+
+header{
+    padding: 15px;
+    background-color: rgb(22, 22, 22); 
+    color: rgb(13, 89, 97);
+}
+
+header nav li{
+    display:inline;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+header h1 {
+    font-weight:bolder;
+    width:50px;
+    text-align:left;
+}
+
+header nav li a{
+    color:rgb(130, 200, 240);
+    
+}
+
+
+
+.container-sobre {    
+    padding: 180px;
+    margin-left: 18px;
+    
+}
+
+.carousel {
+    padding: 16px;
+    
+}
+
+.container-pesquisar {
+    text-align:right;
+    
+}
+
+.social-links img{
+
+    height: 20px;
+    margin-right: 10px;
+    display:flex;
+    text-align:down; 
+    cursor:pointer;
+}
+
+.social-links li a {
+    text-decoration: none;  
+                
+}
+
+
+.container-footer {
+    text-align: right; 
+    padding:14px;
+    background-color: rgb(22, 22, 22); 
+}
+
+.container-footer P {
+
+    color:antiquewhite;
+    font-size: 15px;
+}
+
+.container-descricao {
+    padding:20px;
+    background-color: rgb(33, 120, 219);
+    color:rgb(140, 167, 241);
+    padding:18px;
+    box-sizing: content-box;
+    }
