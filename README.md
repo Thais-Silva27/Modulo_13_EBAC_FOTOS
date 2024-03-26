@@ -15,7 +15,7 @@ Criar um projeto utilizando o Bootstrap;
 6-Enviar o link através da plataforma da EBAC.
 
 ____________________________________________________________________________________________________________________________________________________________________
-Nesse modulo aprendi:
+O que foi estudado neste modulo:
 
 * Os conceitos fundamentais do Bootstrap;
 * implementação do Bootstrap em um projeto web;
